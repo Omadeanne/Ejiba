@@ -1,0 +1,346 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+/* body font and transition */
+body{
+    font-family: 'Poppins', sans-serif;
+    transition: all .4s ease-in-out;
+}
+
+/* about nav */
+.heading
+{
+    color: #df3aa0;
+    margin: 20px auto;
+    border-radius: 0;
+    font-size: 30px;
+    padding: 14px 40px;
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center
+    
+}
+
+.heading h1{
+    font-size: 50px;
+    margin-bottom: 25px;
+    position: relative;
+
+}
+
+.heading h1::after{
+content: "";
+position: absolute;
+width: 100%;
+height: 4px;
+display: block;
+margin: 0 auto;
+background-color: #df4881;
+}
+
+.heading p{
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 35px;
+}
+
+.contaner{
+width: 90%;
+margin: 0 auto;
+padding: 10px 20px;    
+}
+
+.About{
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.About.image{
+    flex: 1;
+    width: 600px;
+    margin: 0px 25px;
+    
+}
+
+.About-image img{
+display: block;
+transition: 0.5s ease;
+width: 500px;
+border-radius: 250px;
+float: right;
+/* margin-right: 5px; */
+bottom: 0;
+right: 10%;
+/* margin-top: 50%; */
+padding: 30px 40px;
+margin: 0px 15px;
+}
+
+.About-image:hover img{
+    transform: scale(1.2);
+}
+
+/* contact nav */
+.container{
+    width: 80%;
+    margin: 50px 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+}
+
+.contact-box{
+    background: #ff66c4;
+    display: flex;
+}
+
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+
+.contact-right{
+    flex-basis: 60%;
+    padding: 40px;
+    background: skyblue;
+    color: #fff;
+}
+
+.h2{
+    margin-bottom: 10px;
+}
+
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group{
+    flex-basis: 45%;
+}
+
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+    
+}
+
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: #fff;
+}
+
+button{
+    background: #1c00b5;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+}
+
+    .contact-left h3{
+        font-weight:600;
+        margin-bottom: 30px;
+    }
+
+    .contact-right h3{
+        font-weight:600;
+        margin-bottom: 30px;
+    }
+
+    tr td:first-child{
+        padding-right: 20px;
+    }
+
+    tr td{
+        padding-top: 20px;
+    }
+
+/* skills nav */
+
+    .skills h4{
+        text-align: center ;
+        font-size: 20px;
+        margin-bottom: 25px;
+        position: relative;
+        color: #df3aa0;
+        padding-top: 100px;
+    }
+
+.services{
+    text-align: center ;
+    font-size: 20px;
+    margin-bottom: 25px;
+    position: relative;
+    color: #df3aa0;
+    padding-top: 40px;
+
+}
+  
+
+.services-header h2{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+
+
+/*  homepage button  */
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 80px;
+    color: #fff;
+    background-image: linear-gradient(45deg, #df4881,#c430d7);
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    animation-delay: 1s;
+}
+/* homepage button hover */
+
+.btn:hover{
+border-top-right-radius: 30px;
+}
+
+
+/* navigation  */
+nav{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* portolio logo */
+.logo{
+    width: 140px;
+}
+
+/* portfolio sections css */
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px; 
+}
+/* porfolio section anchor tags css */
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 400px;
+    text-transform: uppercase;
+}
+
+.linkedin{
+    color: #ff66c4;
+    padding: 10px;
+}
+
+
+.instagram{
+    color: #ff66c4;
+    padding: 10px;
+}
+
+
+.twitter{
+    color: #ff66c4;
+    padding: 10px;
+}
+
+/* introduction cc */
+.precepts1{
+    margin: 10px 10px;
+    border-radius: 0;
+    padding: 14px 40px;
+    margin-top: 10%;
+    max-width: 600px;
+}
+
+/* my name css */
+.name{
+    color: #df3aa0;
+    margin: 10px 10px;
+    border-radius: 0;
+    font-size: 30px;
+    padding: 14px 40px;
+}
+
+/* my stacks css */
+.stack{
+    color: #f88ecf;
+    margin: 10px 10px;
+    border-radius: 0;
+    padding: 14px 40px;
+    font-weight: bold;
+    animation-delay: 0.5s;
+}
+
+/* my nationality css */
+.origin{
+    margin: 10px 10px;
+    border-radius: 0;
+    padding: 14px 40px;
+}
+
+
+
+/* my image css */
+.pic{
+    width: 450px;
+    border-radius: 225px;
+    float: right;
+    margin-right: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    margin-top: 50%;
+    padding: 30px 40px;
+}
+.pic.anim{
+    animation-delay: 1.5s;
+}
+
+.amin{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+
+@keyframes moveup{
+100%{
+    opacity: 1;
+    transform: translateY(0px);
+}
+}
+
+
+
